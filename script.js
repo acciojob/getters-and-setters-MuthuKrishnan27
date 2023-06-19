@@ -12,7 +12,7 @@ class Person {
 		this._name = this.name;
 		return this._name;
 	}
-	setter(age){
+	setter(){
 		this._age = this.age;
 	}
 }
