@@ -9,7 +9,7 @@ class Person {
 		this.age = age;
 	}
 	getter(){
-		this._name = name;
+		this._name = this.name;
 		return this._name;
 	}
 	setter(age){
